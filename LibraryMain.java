@@ -75,7 +75,7 @@ public class LibraryMain {
         return albumList;
     }
 
-    private static Album[] addAlbum(Album album5, Album[] albumList) {
+    private static Album[] addAlbum(Album album, Album[] albumList) {
         albumList = ArrayUtils.add(albumList, album5);
         return albumList;
     }
@@ -118,7 +118,7 @@ public class LibraryMain {
         return novelList;
     }
 
-    private static Novel[] addNovels(Novel novel5, Novel[] novelList) {
+    private static Novel[] addNovels(Novel novel, Novel[] novelList) {
         novelList = ArrayUtils.add(novelList, novel5);
         return novelList;
     }
